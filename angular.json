@@ -93,12 +93,16 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.less"
+              "src/styles.less",
+              "node_modules/bootstrap/less/bootstrap.less"
             ],
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "41f8d526-b8f3-4f57-a3d8-8d6899fb7a04"
   }
 }
