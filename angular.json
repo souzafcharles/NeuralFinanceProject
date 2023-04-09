@@ -25,7 +25,7 @@
             "inlineStyleLanguage": "less",
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": ["src/styles.less"],
-            "scripts": [0]
+            "scripts": []
           },
           "configurations": {
             "production": {
