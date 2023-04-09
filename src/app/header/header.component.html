@@ -1,18 +1,20 @@
-<header>
+<header style="width: 100%;">
     <div class="container">
         <div class="row">
-            <div class="col-sm-12">
+            <div class="col-sm-12 p-flex p-flex-align-center p-flex-jc-sb">
                 <ul>
-                    <li>
-
+                    <li class="p-hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
                     </li>
                     <li>
-                        <img src="assets/img/search.png" alt="The icon for search" width="20"/>
+                        <img class="p-cursor" src="assets/img/search.png" alt="The icon for search" width="20"/>
                     </li>
                 </ul>
                 <ul>
                     <li>
-                        <a href="#">Home</a>
+                        <a href="#" [routerLink]="['/']" [routerLinkActive]="['is-active']">Home</a>
                     </li>
                     <li>
                         <a href="#">Sobre</a>
