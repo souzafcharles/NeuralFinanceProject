@@ -1,0 +1,41 @@
+<section>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-5">
+          <div class="p-profile"></div>
+        </div>
+        <div class="col-sm-7">
+          <div class="contact">
+            <h1>Fale conosco</h1>
+            <form>
+              <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Digite seu nome.." required>
+              </div>
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Digite seu e-mail...." required>
+              </div>
+              <div class="form-group">
+                <label for="service-type">Motivo:</label>
+                <select id="service-type" name="service-type" class="form-control" required>
+                  <option value="">Selecione o motivo do contato</option>
+                  <option value="suporte-tecnico">Suporte técnico</option>
+                  <option value="dicas-de-acoes">Dicas de ações</option>
+                  <option value="cancelar-conta">Cancelar conta</option>
+                  <option value="elogio">Elogio</option>
+                  <option value="reclamacao">Reclamação</option>
+                  <option value="sugestao">Sugestão</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" class="form-control" placeholder="Digite aqui..." required></textarea>
+              </div>
+              <button type="submit" class="btn subscribe-btn">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

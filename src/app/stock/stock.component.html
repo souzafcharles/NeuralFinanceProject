@@ -1,0 +1,76 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-5">
+        <div class="p-profile"></div>
+      </div>
+      <div class="col-sm-7">
+        <span class="p-tag">Acessar as Cotações</span>
+        <table class="table">
+            <thead>
+              <tr>
+                <th>Plano Gratuito</th>
+                <th>Plano Básico</th>
+                <th>Plano Premium</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Série Histórica limitada a 1 ano</td>
+                <td>Série Histórica limitada a 5 anos</td>
+                <td>Série Histórica limitada a 10 anos</td>
+              </tr>
+              <tr>
+                <td>Acesso Gráfico CandleStick</td>
+                <td>Acesso Gráfico CandleStick</td>
+                <td>Acesso Gráfico CandleStick</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Gráfico Indicador Técnico - MACD</td>
+                <td>Gráfico Indicador Técnico - MACD</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>Gráfico Indicador Técnico - RSI</td>
+                <td>Gráfico Indicador Técnico - RSI</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Precificação do valor e de fechamento via Rede Neural Recorrente do dia seguinte</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td>Indicação de Compra, Venda ou Manter via Algoritmo Genético</td>
+              </tr>
+              <tr>
+                <td>
+                  <button class="btn btn-primary" (click)="onPlanSelected('Gratuito')">Acessar</button>
+                </td>
+                <td>
+                  <button class="btn btn-primary" (click)="onPlanSelected('Básico')">Acessar</button>
+                </td>
+                <td>
+                  <button class="btn btn-primary" (click)="onPlanSelected('Premium')">Acessar</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="selected-plan">
+            <p>Plano selecionado: {{ selectedPlan }}</p>
+          </div>
+        <br />
+        <a routerLink="/" class="p-readmore"
+          >Voltar
+          <img
+            src="assets/img/play.png"
+            alt="The icon for back arrow"
+            width="20"
+            class="ml-2"
+        /></a>
+      </div>
+    </div>
+  </div>
+</section>
