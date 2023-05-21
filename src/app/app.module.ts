@@ -10,9 +10,12 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { StockComponent } from './stock/stock.component';
+import { PlanFreeComponent } from './plan-free/plan-free.component';
+import { PlanBasicComponent } from './plan-basic/plan-basic.component';
+import { PlanPremiumComponent } from './plan-premium/plan-premium.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, FooterComponent, AboutComponent, ContactComponent, StockComponent],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, FooterComponent, AboutComponent, ContactComponent, StockComponent, PlanFreeComponent, PlanBasicComponent, PlanPremiumComponent],
   imports: [BrowserModule, AppRoutingModule, NgbModule, FlexLayoutModule],
   providers: [],
   bootstrap: [AppComponent],
