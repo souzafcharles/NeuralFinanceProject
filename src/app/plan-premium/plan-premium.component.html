@@ -77,6 +77,11 @@
           </div>
         </div>
         <br /><br />
+        <!-- plan-premium.component.html -->
+        <button (click)="openColab()">
+          Abrir NeuralFinanceProject.ipynb no Google Colab
+        </button>
+        <br /><br />
         <a routerLink="/" class="p-readmore"
           >Voltar
           <img
@@ -89,3 +94,11 @@
     </div>
   </div>
 </section>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    window.open(
+      "https://colab.research.google.com/drive/1sdB18BDazs2KAT5wUU9wwG8v7NDHbhuE",
+      "_blank"
+    );
+  });
+</script>
