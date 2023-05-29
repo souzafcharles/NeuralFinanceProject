@@ -7,6 +7,10 @@
       <div class="col-sm-7">
         <span class="p-tag">Plano Premium</span>
         <br /><br />
+        <button (click)="openColab()">
+          Abrir NeuralFinanceProject no Google Colab
+        </button>
+        <br /><br />
         <div class="quadro">
           <div class="item">
             <span class="titulo">Ticket: </span>
@@ -76,11 +80,6 @@
             <span class="valor">000,00</span>
           </div>
         </div>
-        <br /><br />
-        <!-- plan-premium.component.html -->
-        <button (click)="openColab()">
-          Abrir NeuralFinanceProject.ipynb no Google Colab
-        </button>
         <br /><br />
         <a routerLink="/" class="p-readmore"
           >Voltar
