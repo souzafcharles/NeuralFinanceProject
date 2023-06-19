@@ -13,10 +13,14 @@ import { StockComponent } from './stock/stock.component';
 import { PlanFreeComponent } from './plan-free/plan-free.component';
 import { PlanBasicComponent } from './plan-basic/plan-basic.component';
 import { PlanPremiumComponent } from './plan-premium/plan-premium.component';
+import { LoginComponent } from './login/login.component';
+import { RouterModule } from '@angular/router';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AdminPageComponent } from './admin-page/admin-page.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HomeComponent, FooterComponent, AboutComponent, ContactComponent, StockComponent, PlanFreeComponent, PlanBasicComponent, PlanPremiumComponent],
-  imports: [BrowserModule, AppRoutingModule, NgbModule, FlexLayoutModule],
+  declarations: [AppComponent, HeaderComponent, HomeComponent, FooterComponent, AboutComponent, ContactComponent, StockComponent, PlanFreeComponent, PlanBasicComponent, PlanPremiumComponent, LoginComponent, AdminPageComponent],
+  imports: [BrowserModule, AppRoutingModule, NgbModule, FlexLayoutModule, FormsModule, ReactiveFormsModule, RouterModule],
   providers: [],
   bootstrap: [AppComponent],
 })
