@@ -33,8 +33,8 @@ yf.pdr_override()
 
 # Download actual stock prices from Yahoo Finance
 ticker = "AAPL"
-start_date = "2018-04-01"
-end_date = "2023-04-01"
+start_date = "2018-06-01"
+end_date = "2023-06-01"
 
 # Recurrent Neural Network (RNN)
 
